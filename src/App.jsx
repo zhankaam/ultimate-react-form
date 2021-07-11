@@ -1,9 +1,10 @@
 import React from 'react';
-import {Route,Switch} from "react-router-dom";
+import {Link, Route, Switch} from "react-router-dom";
 import {Step1} from "./Components/Step1";
 import {Step2} from "./Components/Step2";
 import {Header} from "./Components/Header";
 import {Step3} from "./Components/Step3";
+import {Result} from "./Components/Result";
 
 
 export const RoutePath = {
@@ -13,7 +14,6 @@ export const RoutePath = {
     result: '/result',
 }
 
-export const Result = () => <>Result</>
 
 export const App = () => {
     return (
